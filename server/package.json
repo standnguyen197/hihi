@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.2.1",
+    "localStorage": "^1.0.3",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.16",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.8.2",
+    "nodemon": "^1.17.3",
+    "randomstring": "^1.1.5",
+    "socket.io": "^2.1.0",
+    "strtotime": "^1.0.0",
+    "uniqid": "^4.1.1"
+  }
+}
